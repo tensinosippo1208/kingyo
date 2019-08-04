@@ -1,0 +1,65 @@
+html {
+    font-family: "yuGothic", sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  background-color: #ffffff;
+  padding-left: 20px;
+  font-family: "Seymour One", serif;
+  font-size: 20px;
+  color: #ff0000;/*夢金魚繁殖所の文字色　赤*/
+  line-height: 70px; /*トップと文字の隙間*/
+  text-align:center;
+  
+  letter-spacing: 1px;
+}
+
+.menu {
+    margin-top: 70px;
+    height: 40px;
+    background-color: #ff0000;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  font-size:18px;
+  font-family: "Seymour One", serif;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fffafa;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 30px;
+    line-height: 40px
+}
+
+.contents {
+    height: calc(100vh - 150px);
+    background-color: rgba(255,255,0,0.2);
+    background: url('images2/kingyo5.jpeg');
+    background-size: cover;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.footer {
+    height: 40px;
+    background-color:#0000ff;
+    color: #ffff00;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+}
